@@ -130,3 +130,30 @@ body {
     margin-top: 24px;
     margin-bottom: 16px;
 }
+
+/* styling of the quote section */
+
+.quote {
+    padding: 80px 120px;
+    background-color: #E5E7EB;   
+}
+
+.quote-content {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-name {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: 24px;
+}
