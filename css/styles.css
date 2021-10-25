@@ -21,6 +21,9 @@ body {
 .header-section {
     background-color: #1f2937;
     padding: 0px 120px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-logo {
@@ -43,4 +46,46 @@ body {
     justify-content: space-between;
     height: 60px;
     align-items: center;
+}
+
+/* styling of the header intro */
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.intro-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 16px 0;
+}
+
+.btn {
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+    flex: 1;
+}
+
+.text-content {
+    width: 480px;
+}
+
+.img-container img{
+    width: 450px;
+    border-radius: 16px;
 }
