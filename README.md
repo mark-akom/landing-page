@@ -1,0 +1,1 @@
+This is my landing page project from the Odin Project. This project uses flexbox and other knowledge i have gained from the curriculum. All images used will be credicted below
