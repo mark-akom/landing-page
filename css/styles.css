@@ -190,3 +190,23 @@ body {
 .cta-container .btn {
     border: 2px solid #F9FAF8;
 }
+
+/* styling of the footer section */
+
+.footer {
+    height: 70px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-info {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.footer-info a {
+    color: #F9FAF8;
+    text-decoration: underline;
+}
